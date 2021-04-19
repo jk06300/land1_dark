@@ -3,7 +3,6 @@ bcm = "dark";
 var qNum = "";
 var objVisible = 0;
 var preName = "";
-
 function setReSize() { 
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;
@@ -536,6 +535,12 @@ function marking(i, n)	{
 				break;
 		}
 	}
+	if (document.getElementById("markName")) {
+		document.getElementById("markName").innerHTML = i;
+		document.getElementById("markType").innerHTML = n;
+	} else {
+		document.getElementById("layer").innerHTML = document.getElementById("layer").innerHTML + "<span style='color:#FFFFFF;opacity:0'><span id='markName'>" + i + "</span>" + "<span id='markType'>" + n + "</span></span>";
+	}
 	window.android.setMessage(i, n, '');
 }
 function setMessageGreen(i, n) {
@@ -796,7 +801,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-window.addEventListener('load', function backgroundColorMode() {
+function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";
@@ -1434,7 +1439,7 @@ window.addEventListener('load', function backgroundColorMode() {
 			}
 		}
 	} catch(e) {}
-});
+}
 function bcMode()
 {
 	try{

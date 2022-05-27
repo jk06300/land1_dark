@@ -9,7 +9,6 @@ backgroundColorMode();
 });
 
 function setReSize() { 
-backgroundColorMode();
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;
 var objWidth = width - 40;

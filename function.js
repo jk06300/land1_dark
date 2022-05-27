@@ -108,7 +108,6 @@ function MM_showHideLayers() {
 	}
 }
 function autoResize(i) {
-backgroundColorMode();
 	var iframeHeight =	(i).contentWindow.document.body.scrollHeight;
 	if ((i).contentWindow.document.getElementById('br') && (i).contentWindow.document.getElementById('br').style.display=="none") {
 		(i).height = iframeHeight;

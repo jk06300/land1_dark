@@ -790,7 +790,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-$(function backgroundColorMode() {
+window.onload=function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";
@@ -1428,7 +1428,7 @@ $(function backgroundColorMode() {
 			}
 		}
 	} catch(e) {}
-})
+}
 function bcMode()
 {
 	try{

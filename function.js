@@ -3,7 +3,7 @@ var dHeight, fColor, fName, pValue, tdColor, trColor;
 var qNum = "";
 var objVisible = 0;
 var preName = "";
-
+backgroundColorMode();
 function setReSize() { 
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;

@@ -4,6 +4,10 @@ var qNum = "";
 var objVisible = 0;
 var preName = "";
 
+$(document).ready(function() {
+backgroundColorMode();
+})
+
 function setReSize() { 
 backgroundColorMode();
 var width = document.body.clientWidth;
@@ -791,7 +795,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-$(document).ready(function backgroundColorMode() {
+function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";
@@ -1429,7 +1433,7 @@ $(document).ready(function backgroundColorMode() {
 			}
 		}
 	} catch(e) {}
-})
+}
 function bcMode()
 {
 	try{

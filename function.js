@@ -4,6 +4,10 @@ var qNum = "";
 var objVisible = 0;
 var preName = "";
 
+$(document).ready(function() {
+backgroundColorMode();
+});
+
 function setReSize() { 
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;

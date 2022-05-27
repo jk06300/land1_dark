@@ -4,7 +4,7 @@ var qNum = "";
 var objVisible = 0;
 var preName = "";
 
-$(document).ready(function() {
+$(function() {
 backgroundColorMode();
 });
 

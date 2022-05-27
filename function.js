@@ -114,7 +114,6 @@ function autoResize(i) {
 	} else {
 		(i).height = iframeHeight + 23 + "px";
 	}
-backgroundColorMode();
 }
 function bc(i, t) {
 	try{

@@ -6,7 +6,7 @@ var preName = "";
 
 $(document).ready(function() {
 backgroundColorMode();
-})
+});
 
 function setReSize() { 
 backgroundColorMode();

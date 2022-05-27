@@ -790,7 +790,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-$(document).ready(function backgroundColorMode() {
+$(function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";

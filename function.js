@@ -3,7 +3,7 @@ var dHeight, fColor, fName, pValue, tdColor, trColor;
 var qNum = "";
 var objVisible = 0;
 var preName = "";
-backgroundColorMode();
+
 function setReSize() { 
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;
@@ -790,7 +790,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-function backgroundColorMode() {
+window.onload=function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";

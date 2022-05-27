@@ -5,6 +5,7 @@ var objVisible = 0;
 var preName = "";
 
 function setReSize() { 
+backgroundColorMode();
 var width = document.body.clientWidth;
 var height = document.body.clientHeight;
 var objWidth = width - 40;
@@ -790,7 +791,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-$(document).ready(function() {
+$(document).ready(function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";

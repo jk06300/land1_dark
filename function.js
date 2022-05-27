@@ -1,4 +1,5 @@
-﻿var bcm, dHeight, fColor, fName, pValue, tdColor, trColor;
+﻿var bcm = "dark";
+var, dHeight, fColor, fName, pValue, tdColor, trColor;
 var qNum = "";
 var objVisible = 0;
 var preName = "";

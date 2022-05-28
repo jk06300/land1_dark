@@ -1,5 +1,4 @@
-﻿var bcm = "dark";
-var dHeight, fColor, fName, pValue, tdColor, trColor;
+﻿var bcm, dHeight, fColor, fName, pValue, tdColor, trColor;
 var qNum = "";
 var objVisible = 0;
 var preName = "";
@@ -790,7 +789,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-window.onload = function backgroundColorMode() {
+function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";

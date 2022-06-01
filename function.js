@@ -317,7 +317,6 @@ try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#FFF0F0";
 	frameName.document.getElementById(t).style.color="#000000";
-	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function tcolor(i, t)

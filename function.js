@@ -325,6 +325,7 @@ function tcolor(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#C3BC9A";
+	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function xcolor(i, t)

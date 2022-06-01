@@ -1,4 +1,5 @@
 ﻿var bcm, dHeight, fColor, fName, pValue, tdColor, trColor;
+bcm = "dark";
 var qNum = "";
 var objVisible = 0;
 var preName = "";
@@ -789,7 +790,7 @@ function ad(i) {
 function bcmDeclear(v) {
 	bcm = v;
 }
-function backgroundColorMode() {
+window.addEventListener('load', function backgroundColorMode() {
 	try{
 		if (bcm == "dark") {
 			document.body.style.color="#FFFFFF";
@@ -1427,7 +1428,7 @@ function backgroundColorMode() {
 			}
 		}
 	} catch(e) {}
-}
+});
 function bcMode()
 {
 	try{

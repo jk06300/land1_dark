@@ -119,6 +119,7 @@ function bc(i, t) {
 	try{
 		var frameName=window.frames[i];
 		frameName.document.getElementById(t).style.backgroundColor="#A1A5AF";
+		frameName.document.getElementById(t).style.color="#000000";
 	} catch(e) {}
 }
 function lbg(i, t)
@@ -135,6 +136,7 @@ function obg(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#B8B2AB";
+	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function ebg(i, t)
@@ -142,6 +144,7 @@ function ebg(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#A3AA9F";
+	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function mbg(i, t)
@@ -313,6 +316,8 @@ function scolor(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#FFF0F0";
+	frameName.document.getElementById(t).style.color="#000000";
+	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function tcolor(i, t)
@@ -327,6 +332,7 @@ function xcolor(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#A3AA9F";
+	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function tmove(i, t, f, s)

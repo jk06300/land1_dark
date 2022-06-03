@@ -118,8 +118,7 @@ function autoResize(i) {
 function bc(i, t) {
 	try{
 		var frameName=window.frames[i];
-		frameName.document.getElementById(t).style.backgroundColor="#A1A5AF";
-		frameName.document.getElementById(t).style.color="#000000";
+		frameName.document.getElementById(t).style.backgroundColor="#F3F7F8";
 	} catch(e) {}
 }
 function lbg(i, t)
@@ -135,24 +134,22 @@ function obg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="#B8B2AB";
-	frameName.document.getElementById(t).style.color="#000000";
+	frameName.document.getElementById(t).style.backgroundColor="#FFFAF0";
 } catch(e) {}
 }
 function ebg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="#A3AA9F";
-	frameName.document.getElementById(t).style.color="#000000";
+	frameName.document.getElementById(t).style.backgroundColor="#F8FFED";
 } catch(e) {}
 }
 function mbg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="transparent";
-	frameName.document.getElementById(t).style.color="#D5EBCC";
+	frameName.document.getElementById(t).style.backgroundColor="#FFFADB";
+	frameName.document.getElementById(t).style.color="#000000";
 	frameName.document.getElementById(t).style.marginRight="2px";
 } catch(e) {}
 }
@@ -160,8 +157,8 @@ function gbg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="transparent";
-	frameName.document.getElementById(t).style.color="#D5EBCC";
+	frameName.document.getElementById(t).style.backgroundColor="#EFFFDB";
+	frameName.document.getElementById(t).style.color="#000000";
 	frameName.document.getElementById(t).style.marginRight="2px";
 } catch(e) {}
 }
@@ -169,8 +166,8 @@ function bbg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="transparent";
-	frameName.document.getElementById(t).style.color="#D5EBCC";
+	frameName.document.getElementById(t).style.backgroundColor="#E6FFFC";
+	frameName.document.getElementById(t).style.color="#000000";
 	frameName.document.getElementById(t).style.marginRight="2px";
 } catch(e) {}
 }
@@ -178,8 +175,8 @@ function ybg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="transparent";
-	frameName.document.getElementById(t).style.color="#D5EBCC";
+	frameName.document.getElementById(t).style.backgroundColor="#FFFCCC";
+	frameName.document.getElementById(t).style.color="#000000";
 	frameName.document.getElementById(t).style.marginRight="2px";
 } catch(e) {}
 }
@@ -316,23 +313,20 @@ function scolor(i, t)
 try{
 	var frameName=window.frames[i];
 	frameName.document.getElementById(t).style.backgroundColor="#FFF0F0";
-	frameName.document.getElementById(t).style.color="#000000";
 } catch(e) {}
 }
 function tcolor(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="#C3BC9A";
-	frameName.document.getElementById(t).style.color="#000000";
+	frameName.document.getElementById(t).style.backgroundColor="#FFFDDD";
 } catch(e) {}
 }
 function xcolor(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	frameName.document.getElementById(t).style.backgroundColor="#A3AA9F";
-	frameName.document.getElementById(t).style.color="#000000";
+	frameName.document.getElementById(t).style.backgroundColor="#F8FFED";
 } catch(e) {}
 }
 function tmove(i, t, f, s)

@@ -184,8 +184,7 @@ function rgbg(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	//frameName.document.getElementById(t).style.backgroundColor="#FAFFF1";
-	frameName.document.getElementById(t).style.backgroundColor="transparent";
+	frameName.document.getElementById(t).style.backgroundColor="#FAFFF1";
 	frameName.document.getElementById(t).style.color="#CF0000";
 	frameName.document.getElementById(t).style.marginRight="2px";
 } catch(e) {}

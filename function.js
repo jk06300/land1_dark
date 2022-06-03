@@ -319,8 +319,7 @@ function tcolor(i, t)
 {
 try{
 	var frameName=window.frames[i];
-	//frameName.document.getElementById(t).style.backgroundColor="#FFFDDD";
-frameName.document.getElementById(t).style.backgroundColor="#C3BC9A";
+	frameName.document.getElementById(t).style.backgroundColor="#FFFDDD";
 } catch(e) {}
 }
 function xcolor(i, t)
